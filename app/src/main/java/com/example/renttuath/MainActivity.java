@@ -19,6 +19,7 @@ import static java.lang.Double.valueOf;
 
 public class MainActivity extends AppCompatActivity {
 
+    //Declare Variables
     private EditText eTTotalIncomes;
     private TextView tVRent;
     private String total_Incomes;
@@ -65,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //Button clear incomesS
         Button buttonClearIncomes = findViewById(R.id.btnClearIncomes);
         buttonClearIncomes.setOnClickListener(new View.OnClickListener() {
             @Override
